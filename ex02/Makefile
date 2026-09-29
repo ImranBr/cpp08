@@ -2,9 +2,9 @@ CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -g3 -MMD
 
 OBJ_DIR = objs
-NAME = Span
+NAME = MutanStack
 
-SRCS = main.cpp Span.cpp
+SRCS = main.cpp 
 OBJS = $(SRCS:%.cpp=$(OBJ_DIR)/%.o)
 DEPENDS = $(OBJS:.o=.d)
 
